@@ -1,6 +1,6 @@
 {
-  "name": "notify-pr-review",
-  "version": "1.0.0",
+  "name": "notify-pr-slack",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {

@@ -1,4 +1,4 @@
-# Notify PR Review (Customized)
+# Notify PR Slack (Customized)
 
 This project is based on [naver/notify-pr-review](https://github.com/naver/notify-pr-review),
 licensed under the Apache License 2.0.
@@ -24,8 +24,8 @@ jobs:
   notify:
     runs-on: [ubuntu-latest]
     steps:
-      - name: Notify PR Review
-        uses: pierrot-company/notify-pr-review@v1.2.1
+      - name: Notify PR Slack
+        uses: pierrot-company/notify-pr-slack@v1.0.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           slackBotToken: ${{ secrets.SLACK_BOT_TOKEN }}
